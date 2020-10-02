@@ -4,10 +4,10 @@ import { hello } from "./ts/sub";
 //import "./css/style.css";
 import "./scss/style.scss";
 
-alert("TypeScript 変換成功");
+console.log("TypeScript 変換成功");
 
 hello();
 
 window.addEventListener("load", () => {
-  alert("IE11で表示されたらTypeScript Transpile成功");
+  console.log("IE11で表示されたらTypeScript Transpile成功");
 });

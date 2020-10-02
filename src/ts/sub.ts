@@ -1,3 +1,3 @@
 export function hello() {
-  alert("TypeScript import成功");
+  console.log("TypeScript import成功");
 }

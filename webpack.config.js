@@ -16,6 +16,8 @@ module.exports = {
   //entry: "./src/index.js",
   entry: "./src/index.ts",
 
+  devtool: "source-map",
+
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "js/main.js"
@@ -91,6 +93,12 @@ module.exports = {
         ]
       }
     ]
+  },
+
+  devServer: {
+    contentBase: path.resolve(__dirname, "dist"),
+    open: true, //起動時にブラウザを開く
+    overlay: true //エラーをオーバーレイ表示
   },
 
   plugins: [

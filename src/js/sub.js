@@ -1,3 +1,3 @@
 export function hello() {
-  alert("JavaScript import成功");
+  console.log("JavaScript import成功");
 }
