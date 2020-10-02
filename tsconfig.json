@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", //生成するJSモジュールの形式
+    "target": "es5", //生成するJSのバージョン
+    "noImplicitAny": false //trueの場合、暗黙的なany型を許容しない
+    // "sourceMap": false //ソースマップ生成するかどうか
+  }
+  // "exclude": ["node_modules"] //node_modulesフォルダは除外
+}
